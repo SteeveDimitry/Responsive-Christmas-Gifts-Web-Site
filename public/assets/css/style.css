@@ -33,6 +33,10 @@
     --z-fixed: 100;
 }
 
+::selection {
+    background: var(--first-color);
+}
+
 @media screen and (min-width: 968px) {
     :root {
         --biggest-font-size: 3rem;
