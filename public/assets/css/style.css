@@ -33,8 +33,24 @@
     --z-fixed: 100;
 }
 
+::-webkit-scrollbar {
+    background: #f1b1b6;
+    width: 10px;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: var(--first-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--first-color-alt);
+}
+
 ::selection {
     background: var(--first-color);
+    color: #f1f2f3;
 }
 
 @media screen and (min-width: 968px) {
